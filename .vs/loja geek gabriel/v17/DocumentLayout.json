@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\codiguinhos\\c#\\loja geek gabriel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{985DF859-3EAA-4E19-A912-EE8014C72D93}|loja geek gabriel\\loja geek gabriel.csproj|C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\codiguinhos\\c#\\loja geek gabriel\\loja geek gabriel\\frmgrafico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{985DF859-3EAA-4E19-A912-EE8014C72D93}|loja geek gabriel\\loja geek gabriel.csproj|solutionrelative:loja geek gabriel\\frmgrafico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{985DF859-3EAA-4E19-A912-EE8014C72D93}|loja geek gabriel\\loja geek gabriel.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\codiguinhos\\c#\\loja geek gabriel\\loja geek gabriel\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{985DF859-3EAA-4E19-A912-EE8014C72D93}|loja geek gabriel\\loja geek gabriel.csproj|solutionrelative:loja geek gabriel\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{985DF859-3EAA-4E19-A912-EE8014C72D93}|loja geek gabriel\\loja geek gabriel.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\codiguinhos\\c#\\loja geek gabriel\\loja geek gabriel\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{985DF859-3EAA-4E19-A912-EE8014C72D93}|loja geek gabriel\\loja geek gabriel.csproj|solutionrelative:loja geek gabriel\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{985DF859-3EAA-4E19-A912-EE8014C72D93}|loja geek gabriel\\loja geek gabriel.csproj|C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\codiguinhos\\c#\\loja geek gabriel\\loja geek gabriel\\frmperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{985DF859-3EAA-4E19-A912-EE8014C72D93}|loja geek gabriel\\loja geek gabriel.csproj|solutionrelative:loja geek gabriel\\frmperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{985DF859-3EAA-4E19-A912-EE8014C72D93}|loja geek gabriel\\loja geek gabriel.csproj|C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\codiguinhos\\c#\\loja geek gabriel\\loja geek gabriel\\frmcomprar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{985DF859-3EAA-4E19-A912-EE8014C72D93}|loja geek gabriel\\loja geek gabriel.csproj|solutionrelative:loja geek gabriel\\frmcomprar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{985DF859-3EAA-4E19-A912-EE8014C72D93}|loja geek gabriel\\loja geek gabriel.csproj|C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\codiguinhos\\c#\\loja geek gabriel\\loja geek gabriel\\frmproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{985DF859-3EAA-4E19-A912-EE8014C72D93}|loja geek gabriel\\loja geek gabriel.csproj|solutionrelative:loja geek gabriel\\frmproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{17190a8b-df25-30bf-93e3-9d5ddfe5fef9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{67d15d2e-5bac-311f-82c3-d49feab601fd}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMenu.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\codiguinhos\\c#\\loja geek gabriel\\loja geek gabriel\\frmMenu.cs",
+              "RelativeDocumentMoniker": "loja geek gabriel\\frmMenu.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\codiguinhos\\c#\\loja geek gabriel\\loja geek gabriel\\frmMenu.cs",
+              "RelativeToolTip": "loja geek gabriel\\frmMenu.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAtwHUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T02:21:35.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmGrafico.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\codiguinhos\\c#\\loja geek gabriel\\loja geek gabriel\\frmGrafico.cs",
+              "RelativeDocumentMoniker": "loja geek gabriel\\frmGrafico.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\codiguinhos\\c#\\loja geek gabriel\\loja geek gabriel\\frmGrafico.cs [Design]",
+              "RelativeToolTip": "loja geek gabriel\\frmGrafico.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T18:59:17.672Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmProduto.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\codiguinhos\\c#\\loja geek gabriel\\loja geek gabriel\\frmProduto.cs",
+              "RelativeDocumentMoniker": "loja geek gabriel\\frmProduto.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\codiguinhos\\c#\\loja geek gabriel\\loja geek gabriel\\frmProduto.cs [Design]",
+              "RelativeToolTip": "loja geek gabriel\\frmProduto.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T18:58:16.688Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmComprar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\codiguinhos\\c#\\loja geek gabriel\\loja geek gabriel\\frmComprar.cs",
+              "RelativeDocumentMoniker": "loja geek gabriel\\frmComprar.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\codiguinhos\\c#\\loja geek gabriel\\loja geek gabriel\\frmComprar.cs [Design]",
+              "RelativeToolTip": "loja geek gabriel\\frmComprar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T18:56:50.202Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmPerfil.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\codiguinhos\\c#\\loja geek gabriel\\loja geek gabriel\\frmPerfil.cs",
+              "RelativeDocumentMoniker": "loja geek gabriel\\frmPerfil.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\codiguinhos\\c#\\loja geek gabriel\\loja geek gabriel\\frmPerfil.cs [Design]",
+              "RelativeToolTip": "loja geek gabriel\\frmPerfil.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T18:33:42.962Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\codiguinhos\\c#\\loja geek gabriel\\loja geek gabriel\\frmMenu.cs",
+              "RelativeDocumentMoniker": "loja geek gabriel\\frmMenu.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\codiguinhos\\c#\\loja geek gabriel\\loja geek gabriel\\frmMenu.cs [Design]",
+              "RelativeToolTip": "loja geek gabriel\\frmMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T02:19:23.048Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
