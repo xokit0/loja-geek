@@ -30,9 +30,9 @@
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtQuantidade = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -60,12 +60,12 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Nome do Produto";
             // 
-            // textBox1
+            // txtNome
             // 
-            this.textBox1.Location = new System.Drawing.Point(43, 110);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(595, 20);
-            this.textBox1.TabIndex = 2;
+            this.txtNome.Location = new System.Drawing.Point(43, 110);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(595, 20);
+            this.txtNome.TabIndex = 2;
             // 
             // label2
             // 
@@ -77,12 +77,12 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Quantidade";
             // 
-            // textBox2
+            // txtQuantidade
             // 
-            this.textBox2.Location = new System.Drawing.Point(43, 232);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(595, 20);
-            this.textBox2.TabIndex = 2;
+            this.txtQuantidade.Location = new System.Drawing.Point(43, 232);
+            this.txtQuantidade.Name = "txtQuantidade";
+            this.txtQuantidade.Size = new System.Drawing.Size(595, 20);
+            this.txtQuantidade.TabIndex = 2;
             // 
             // dataGridView1
             // 
@@ -142,8 +142,8 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtQuantidade);
+            this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
@@ -161,9 +161,9 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtQuantidade;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
