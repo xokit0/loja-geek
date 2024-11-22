@@ -28,33 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbxFoto = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtQuantidade = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dgvProduto = new System.Windows.Forms.DataGridView();
+            this.btnAdicionar = new System.Windows.Forms.Button();
+            this.btnExcluir = new System.Windows.Forms.Button();
+            this.btnAtualizar = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtValor = new System.Windows.Forms.TextBox();
+            this.btnFoto = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxFoto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProduto)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // pbxFoto
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(661, 55);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(259, 195);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pbxFoto.Location = new System.Drawing.Point(661, 21);
+            this.pbxFoto.Name = "pbxFoto";
+            this.pbxFoto.Size = new System.Drawing.Size(259, 195);
+            this.pbxFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxFoto.TabIndex = 0;
+            this.pbxFoto.TabStop = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(38, 55);
+            this.label1.Location = new System.Drawing.Point(38, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(194, 25);
             this.label1.TabIndex = 1;
@@ -62,7 +65,7 @@
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(43, 110);
+            this.txtNome.Location = new System.Drawing.Point(43, 64);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(595, 20);
             this.txtNome.TabIndex = 2;
@@ -71,7 +74,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(38, 177);
+            this.label2.Location = new System.Drawing.Point(38, 102);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(133, 25);
             this.label2.TabIndex = 1;
@@ -79,58 +82,90 @@
             // 
             // txtQuantidade
             // 
-            this.txtQuantidade.Location = new System.Drawing.Point(43, 232);
+            this.txtQuantidade.Location = new System.Drawing.Point(43, 157);
             this.txtQuantidade.Name = "txtQuantidade";
             this.txtQuantidade.Size = new System.Drawing.Size(595, 20);
             this.txtQuantidade.TabIndex = 2;
             // 
-            // dataGridView1
+            // dgvProduto
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.DarkSlateGray;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(43, 290);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(595, 263);
-            this.dataGridView1.TabIndex = 3;
+            this.dgvProduto.BackgroundColor = System.Drawing.Color.DarkSlateGray;
+            this.dgvProduto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvProduto.Location = new System.Drawing.Point(43, 290);
+            this.dgvProduto.Name = "dgvProduto";
+            this.dgvProduto.Size = new System.Drawing.Size(595, 263);
+            this.dgvProduto.TabIndex = 3;
             // 
-            // button1
+            // btnAdicionar
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.DarkCyan;
-            this.button1.Location = new System.Drawing.Point(661, 290);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(259, 75);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "ADICIONAR";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnAdicionar.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnAdicionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdicionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdicionar.ForeColor = System.Drawing.Color.DarkCyan;
+            this.btnAdicionar.Location = new System.Drawing.Point(661, 290);
+            this.btnAdicionar.Name = "btnAdicionar";
+            this.btnAdicionar.Size = new System.Drawing.Size(259, 75);
+            this.btnAdicionar.TabIndex = 4;
+            this.btnAdicionar.Text = "ADICIONAR";
+            this.btnAdicionar.UseVisualStyleBackColor = false;
+            this.btnAdicionar.Click += new System.EventHandler(this.btnAdicionar_Click);
             // 
-            // button2
+            // btnExcluir
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Crimson;
-            this.button2.Location = new System.Drawing.Point(661, 479);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(259, 74);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "EXCLUIR";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnExcluir.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExcluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExcluir.ForeColor = System.Drawing.Color.Crimson;
+            this.btnExcluir.Location = new System.Drawing.Point(661, 479);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(259, 74);
+            this.btnExcluir.TabIndex = 4;
+            this.btnExcluir.Text = "EXCLUIR";
+            this.btnExcluir.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnAtualizar
             // 
-            this.button3.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.DarkCyan;
-            this.button3.Location = new System.Drawing.Point(661, 387);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(259, 73);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "ATUALIZAR";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnAtualizar.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnAtualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAtualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAtualizar.ForeColor = System.Drawing.Color.DarkCyan;
+            this.btnAtualizar.Location = new System.Drawing.Point(661, 387);
+            this.btnAtualizar.Name = "btnAtualizar";
+            this.btnAtualizar.Size = new System.Drawing.Size(259, 73);
+            this.btnAtualizar.TabIndex = 4;
+            this.btnAtualizar.Text = "ATUALIZAR";
+            this.btnAtualizar.UseVisualStyleBackColor = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(38, 191);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(116, 25);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "valor (R$)";
+            // 
+            // txtValor
+            // 
+            this.txtValor.Location = new System.Drawing.Point(43, 246);
+            this.txtValor.Name = "txtValor";
+            this.txtValor.Size = new System.Drawing.Size(595, 20);
+            this.txtValor.TabIndex = 2;
+            // 
+            // btnFoto
+            // 
+            this.btnFoto.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnFoto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFoto.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFoto.ForeColor = System.Drawing.Color.DarkCyan;
+            this.btnFoto.Location = new System.Drawing.Point(661, 222);
+            this.btnFoto.Name = "btnFoto";
+            this.btnFoto.Size = new System.Drawing.Size(259, 41);
+            this.btnFoto.TabIndex = 4;
+            this.btnFoto.Text = "INSERIR FOTO";
+            this.btnFoto.UseVisualStyleBackColor = false;
+            this.btnFoto.Click += new System.EventHandler(this.btnFoto_Click);
             // 
             // frmProduto
             // 
@@ -138,20 +173,23 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(963, 586);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.btnAtualizar);
+            this.Controls.Add(this.btnExcluir);
+            this.Controls.Add(this.btnFoto);
+            this.Controls.Add(this.btnAdicionar);
+            this.Controls.Add(this.dgvProduto);
+            this.Controls.Add(this.txtValor);
             this.Controls.Add(this.txtQuantidade);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pbxFoto);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmProduto";
             this.Text = "frmProduto";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxFoto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProduto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -159,14 +197,17 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pbxFoto;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtQuantidade;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.DataGridView dgvProduto;
+        private System.Windows.Forms.Button btnAdicionar;
+        private System.Windows.Forms.Button btnExcluir;
+        private System.Windows.Forms.Button btnAtualizar;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtValor;
+        private System.Windows.Forms.Button btnFoto;
     }
 }

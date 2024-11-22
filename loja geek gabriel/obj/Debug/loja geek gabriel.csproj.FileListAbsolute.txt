@@ -13,3 +13,5 @@ C:\Users\Aluno\Downloads\Nova pasta\loja geek gabriel\obj\Debug\loja geek gabrie
 C:\Users\Aluno\Downloads\Nova pasta\loja geek gabriel\obj\Debug\loja geek gabriel.csproj.CoreCompileInputs.cache
 C:\Users\Aluno\Downloads\Nova pasta\loja geek gabriel\obj\Debug\loja geek gabriel.exe
 C:\Users\Aluno\Downloads\Nova pasta\loja geek gabriel\obj\Debug\loja geek gabriel.pdb
+C:\Users\Aluno\Downloads\Nova pasta\loja geek gabriel\bin\Debug\DbGabriel.mdf
+C:\Users\Aluno\Downloads\Nova pasta\loja geek gabriel\bin\Debug\DbGabriel_log.ldf
