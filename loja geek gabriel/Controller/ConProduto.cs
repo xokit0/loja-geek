@@ -75,13 +75,15 @@ namespace loja_geek_gabriel.Controller
             try
             {
                 decimal valorreal = Convert.ToDecimal(valor) / 100;
-                string sql = "INSERT INTO produto(nome,quantidade,valor,imagem) VALUES ('" + nome + "','" + quantidade + "','" +valorreal+"','" + imagem + "')";
+                var quantidade1 = Convert.ToInt32(quantidade);
+                string sql = "INSERT INTO produto(nome,valor,imagem,quantidade) VALUES ('" + nome + "',@valor,'" + imagem +"','" + quantidade1 + "')";
                 if (con.State == ConnectionState.Open)
                 {
                     con.Close();
                 }
                 con.Open();
                 SqlCommand cmd = new SqlCommand(sql, con);
+                cmd.Parameters.Add("@valor", SqlDbType.Decimal).Value = valorreal;
                 cmd.ExecuteNonQuery();
                 con.Close();
             }

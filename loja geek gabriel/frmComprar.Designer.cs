@@ -35,14 +35,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblValor = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvCompra = new System.Windows.Forms.DataGridView();
             this.btnAdicionar = new System.Windows.Forms.Button();
             this.btnRetirar = new System.Windows.Forms.Button();
             this.btnFinalizar = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.lblValorTotal = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCompra)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -113,14 +113,14 @@
             this.lblValor.TabIndex = 4;
             this.lblValor.Text = "label4";
             // 
-            // dataGridView1
+            // dgvCompra
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.DarkSlateGray;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(64, 337);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(547, 225);
-            this.dataGridView1.TabIndex = 5;
+            this.dgvCompra.BackgroundColor = System.Drawing.Color.DarkSlateGray;
+            this.dgvCompra.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCompra.Location = new System.Drawing.Point(64, 337);
+            this.dgvCompra.Name = "dgvCompra";
+            this.dgvCompra.Size = new System.Drawing.Size(547, 225);
+            this.dgvCompra.TabIndex = 5;
             // 
             // btnAdicionar
             // 
@@ -196,7 +196,7 @@
             this.Controls.Add(this.btnFinalizar);
             this.Controls.Add(this.btnRetirar);
             this.Controls.Add(this.btnAdicionar);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvCompra);
             this.Controls.Add(this.lblValorTotal);
             this.Controls.Add(this.lblValor);
             this.Controls.Add(this.textBox1);
@@ -210,7 +210,7 @@
             this.Name = "frmComprar";
             this.Text = "frmComprar";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCompra)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -225,7 +225,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label lblValor;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvCompra;
         private System.Windows.Forms.Button btnAdicionar;
         private System.Windows.Forms.Button btnRetirar;
         private System.Windows.Forms.Button btnFinalizar;
