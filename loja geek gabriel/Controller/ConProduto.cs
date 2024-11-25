@@ -90,6 +90,7 @@ namespace loja_geek_gabriel.Controller
             catch (Exception er)
             {
                 MessageBox.Show(er.Message);
+                //mudanca
             }
         }
     }
