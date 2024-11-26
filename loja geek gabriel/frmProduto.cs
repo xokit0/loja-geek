@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Reflection;
 
 namespace loja_geek_gabriel
 {
@@ -17,7 +18,14 @@ namespace loja_geek_gabriel
         public frmProduto()
         {
             InitializeComponent();
+            ConProduto conProduto = new ConProduto();
+            List<Produto> produtos = conProduto.listaproduto();
+            dgvProduto.DataSource = produtos;
+            btnAtualizar.Enabled = false;
+            btnExcluir.Enabled = false;
+            this.ActiveControl = txtNome;
         }
+
 
         private void btnFoto_Click(object sender, EventArgs e)
         {
@@ -33,7 +41,7 @@ namespace loja_geek_gabriel
 
         private void btnAdicionar_Click(object sender, EventArgs e)
         {
-            if (txtNome.Text == string.Empty || txtValor.Text == string.Empty)
+            if (txtNome.Text == string.Empty || txtValor.Text == string.Empty || txtQuantidade.Text == string.Empty || pbxFoto.Image == null)
             {
                 MessageBox.Show("Por favor, preencha todos os campos do formulário.", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
@@ -56,7 +64,7 @@ namespace loja_geek_gabriel
                 else
                 {
                     string foto = txtNome.Text.Replace(" ", "");
-                    pbxFoto.Image.Save(@"C:\Users\Aluno\Downloads\Nova pasta\loja geek gabriel\Fotos produtos" + foto + ".jpg");
+                    pbxFoto.Image.Save(@"C:\Users\Aluno\Desktop\tome\loja geek gabriel\fotos" + foto + ".jpg");
                     int quantidade = Convert.ToInt32(txtQuantidade.Text);
                     string nome1 = txtNome.Text;
                     string valor = txtValor.Text;
@@ -77,5 +85,41 @@ namespace loja_geek_gabriel
                 MessageBox.Show(er.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void btnAtualizar_Click(object sender, EventArgs e)
+        {
+            if (txtNome.Text == string.Empty || txtValor.Text == string.Empty || txtQuantidade.Text == string.Empty || pbxFoto.Image == null)
+            {
+                MessageBox.Show("Por favor, preencha todos os campos do formulário.", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            ConProduto produto = new ConProduto();
+            
+            string nome = txtNome.Text;
+            int quantidade = Convert.ToInt32(txtQuantidade.Text);
+            string valor = txtValor.Text;
+            string imagem = txtNome.Text.Replace(" ", "");
+            int id = Convert.ToInt32(txtId.Text);
+            pbxFoto.Image.Save(@"C:\Users\Aluno\Desktop\tome\loja geek gabriel\fotos" + imagem + ".jpg");
+            
+            produto.Atualizar(id,nome, quantidade, valor, imagem);
+        }
+
+        private void dgvProduto_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = this.dgvProduto.Rows[e.RowIndex];
+                this.dgvProduto.Rows[e.RowIndex].Selected = true;
+                txtId.Text = row.Cells[0].Value.ToString();
+                txtNome.Text = row.Cells[1].Value.ToString();
+                txtQuantidade.Text = row.Cells[2].Value.ToString();
+                txtValor.Text = row.Cells[3].Value.ToString();
+            }
+            btnAtualizar.Enabled = true;
+            btnExcluir.Enabled = true;
+        }
+
     }
 }

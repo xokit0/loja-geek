@@ -18,10 +18,9 @@ namespace loja_geek_gabriel.Controller
         public decimal valor { get; set; }
         public int quantidade { get; set; }
 
-        
-        //conectando com a base
-        SqlConnection con = new SqlConnection("Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename=C:\\Users\\Aluno\\Downloads\\Nova pasta\\loja geek gabriel\\DbGabriel.mdf;Integrated Security = True");
 
+        //conectando com a base
+        SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Aluno\\Desktop\\tome\\loja geek gabriel\\DbGabriel.mdf\";Integrated Security=True");
         //instanciando o model produto
         Produto produto = new Produto();
 
@@ -84,6 +83,48 @@ namespace loja_geek_gabriel.Controller
                 con.Open();
                 SqlCommand cmd = new SqlCommand(sql, con);
                 cmd.Parameters.Add("@valor", SqlDbType.Decimal).Value = valorreal;
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+            catch (Exception er)
+            {
+                MessageBox.Show(er.Message);
+            }
+        }
+
+        public void Atualizar(int id, string nome, int quantidade, string valor, string imagem)
+        {
+            try
+            {
+                decimal precofinal = Convert.ToDecimal(valor);
+                string sql = "UPDATE produto SET nome = '" + nome + "', valor = @preco, imagem = '" + imagem + "', quantidade='" + quantidade + "' WHERE id = '" + id + "'";
+                if (con.State == ConnectionState.Open)
+                {
+                    con.Close();
+                }
+                con.Open();
+                SqlCommand cmd = new SqlCommand(sql, con);
+                cmd.Parameters.Add("@preco", SqlDbType.Decimal).Value = precofinal;
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+            catch (Exception er)
+            {
+                MessageBox.Show(er.Message);
+            }
+        }
+
+        public void Excluir(int Id)
+        {
+            try
+            {
+                string sql = "DELETE FROM produto WHERE Id='" + Id + "'";
+                if (con.State == ConnectionState.Open)
+                {
+                    con.Close();
+                }
+                con.Open();
+                SqlCommand cmd = new SqlCommand(sql, con);
                 cmd.ExecuteNonQuery();
                 con.Close();
             }
