@@ -15,3 +15,20 @@ C:\Users\Aluno\Desktop\tome\loja geek gabriel\obj\Debug\loja geek gabriel.csproj
 C:\Users\Aluno\Desktop\tome\loja geek gabriel\obj\Debug\loja geek gabriel.csproj.CoreCompileInputs.cache
 C:\Users\Aluno\Desktop\tome\loja geek gabriel\obj\Debug\loja geek gabriel.exe
 C:\Users\Aluno\Desktop\tome\loja geek gabriel\obj\Debug\loja geek gabriel.pdb
+C:\Users\Aluno\Downloads\tome\loja geek gabriel\bin\Debug\DbGabriel.mdf
+C:\Users\Aluno\Downloads\tome\loja geek gabriel\bin\Debug\DbGabriel_log.ldf
+C:\Users\Aluno\Downloads\tome\loja geek gabriel\bin\Debug\loja geek gabriel.exe.config
+C:\Users\Aluno\Downloads\tome\loja geek gabriel\bin\Debug\loja geek gabriel.exe
+C:\Users\Aluno\Downloads\tome\loja geek gabriel\bin\Debug\loja geek gabriel.pdb
+C:\Users\Aluno\Downloads\tome\loja geek gabriel\obj\Debug\loja geek gabriel.csproj.AssemblyReference.cache
+C:\Users\Aluno\Downloads\tome\loja geek gabriel\obj\Debug\loja geek gabriel.csproj.SuggestedBindingRedirects.cache
+C:\Users\Aluno\Downloads\tome\loja geek gabriel\obj\Debug\loja_geek_gabriel.frmComprar.resources
+C:\Users\Aluno\Downloads\tome\loja geek gabriel\obj\Debug\loja_geek_gabriel.frmGrafico.resources
+C:\Users\Aluno\Downloads\tome\loja geek gabriel\obj\Debug\loja_geek_gabriel.frmMenu.resources
+C:\Users\Aluno\Downloads\tome\loja geek gabriel\obj\Debug\loja_geek_gabriel.frmPerfil.resources
+C:\Users\Aluno\Downloads\tome\loja geek gabriel\obj\Debug\loja_geek_gabriel.frmProduto.resources
+C:\Users\Aluno\Downloads\tome\loja geek gabriel\obj\Debug\loja_geek_gabriel.Properties.Resources.resources
+C:\Users\Aluno\Downloads\tome\loja geek gabriel\obj\Debug\loja geek gabriel.csproj.GenerateResource.cache
+C:\Users\Aluno\Downloads\tome\loja geek gabriel\obj\Debug\loja geek gabriel.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Downloads\tome\loja geek gabriel\obj\Debug\loja geek gabriel.exe
+C:\Users\Aluno\Downloads\tome\loja geek gabriel\obj\Debug\loja geek gabriel.pdb

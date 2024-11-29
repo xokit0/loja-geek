@@ -48,7 +48,7 @@
             // 
             // pbxFoto
             // 
-            this.pbxFoto.Location = new System.Drawing.Point(661, 21);
+            this.pbxFoto.Location = new System.Drawing.Point(654, 94);
             this.pbxFoto.Name = "pbxFoto";
             this.pbxFoto.Size = new System.Drawing.Size(259, 195);
             this.pbxFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -59,7 +59,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(38, 21);
+            this.label1.Location = new System.Drawing.Point(31, 94);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(194, 25);
             this.label1.TabIndex = 1;
@@ -67,7 +67,7 @@
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(43, 64);
+            this.txtNome.Location = new System.Drawing.Point(36, 137);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(595, 20);
             this.txtNome.TabIndex = 2;
@@ -76,7 +76,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(38, 120);
+            this.label2.Location = new System.Drawing.Point(31, 193);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(133, 25);
             this.label2.TabIndex = 1;
@@ -84,17 +84,20 @@
             // 
             // txtQuantidade
             // 
-            this.txtQuantidade.Location = new System.Drawing.Point(43, 157);
+            this.txtQuantidade.Location = new System.Drawing.Point(36, 230);
             this.txtQuantidade.Name = "txtQuantidade";
             this.txtQuantidade.Size = new System.Drawing.Size(595, 20);
             this.txtQuantidade.TabIndex = 2;
             // 
             // dgvProduto
             // 
+            this.dgvProduto.AllowUserToAddRows = false;
+            this.dgvProduto.AllowUserToDeleteRows = false;
             this.dgvProduto.BackgroundColor = System.Drawing.Color.DarkSlateGray;
             this.dgvProduto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvProduto.Location = new System.Drawing.Point(43, 290);
+            this.dgvProduto.Location = new System.Drawing.Point(36, 363);
             this.dgvProduto.Name = "dgvProduto";
+            this.dgvProduto.ReadOnly = true;
             this.dgvProduto.Size = new System.Drawing.Size(595, 263);
             this.dgvProduto.TabIndex = 3;
             // 
@@ -104,7 +107,7 @@
             this.btnAdicionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdicionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdicionar.ForeColor = System.Drawing.Color.DarkCyan;
-            this.btnAdicionar.Location = new System.Drawing.Point(661, 290);
+            this.btnAdicionar.Location = new System.Drawing.Point(654, 363);
             this.btnAdicionar.Name = "btnAdicionar";
             this.btnAdicionar.Size = new System.Drawing.Size(259, 75);
             this.btnAdicionar.TabIndex = 4;
@@ -118,12 +121,13 @@
             this.btnExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExcluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExcluir.ForeColor = System.Drawing.Color.Crimson;
-            this.btnExcluir.Location = new System.Drawing.Point(661, 479);
+            this.btnExcluir.Location = new System.Drawing.Point(654, 552);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(259, 74);
             this.btnExcluir.TabIndex = 4;
             this.btnExcluir.Text = "EXCLUIR";
             this.btnExcluir.UseVisualStyleBackColor = false;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnAtualizar
             // 
@@ -131,7 +135,7 @@
             this.btnAtualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAtualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAtualizar.ForeColor = System.Drawing.Color.DarkCyan;
-            this.btnAtualizar.Location = new System.Drawing.Point(661, 387);
+            this.btnAtualizar.Location = new System.Drawing.Point(654, 460);
             this.btnAtualizar.Name = "btnAtualizar";
             this.btnAtualizar.Size = new System.Drawing.Size(259, 73);
             this.btnAtualizar.TabIndex = 4;
@@ -143,7 +147,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(38, 208);
+            this.label3.Location = new System.Drawing.Point(31, 281);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(116, 25);
             this.label3.TabIndex = 1;
@@ -151,7 +155,7 @@
             // 
             // txtValor
             // 
-            this.txtValor.Location = new System.Drawing.Point(43, 246);
+            this.txtValor.Location = new System.Drawing.Point(36, 319);
             this.txtValor.Name = "txtValor";
             this.txtValor.Size = new System.Drawing.Size(595, 20);
             this.txtValor.TabIndex = 2;
@@ -162,7 +166,7 @@
             this.btnFoto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFoto.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFoto.ForeColor = System.Drawing.Color.DarkCyan;
-            this.btnFoto.Location = new System.Drawing.Point(661, 222);
+            this.btnFoto.Location = new System.Drawing.Point(654, 295);
             this.btnFoto.Name = "btnFoto";
             this.btnFoto.Size = new System.Drawing.Size(259, 41);
             this.btnFoto.TabIndex = 4;
@@ -174,7 +178,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(507, 21);
+            this.label4.Location = new System.Drawing.Point(500, 94);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(34, 25);
             this.label4.TabIndex = 1;
@@ -182,7 +186,7 @@
             // 
             // txtId
             // 
-            this.txtId.Location = new System.Drawing.Point(547, 21);
+            this.txtId.Location = new System.Drawing.Point(540, 94);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(91, 20);
             this.txtId.TabIndex = 2;
@@ -192,7 +196,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.ClientSize = new System.Drawing.Size(963, 586);
+            this.ClientSize = new System.Drawing.Size(963, 730);
             this.Controls.Add(this.btnAtualizar);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnFoto);
@@ -210,6 +214,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmProduto";
             this.Text = "frmProduto";
+            this.Load += new System.EventHandler(this.frmProduto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbxFoto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProduto)).EndInit();
             this.ResumeLayout(false);

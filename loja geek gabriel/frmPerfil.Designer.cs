@@ -28,61 +28,63 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.txtCpf = new System.Windows.Forms.TextBox();
+            this.btnRegistrar = new System.Windows.Forms.Button();
+            this.btnEntrar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbxFuncao = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtNome
             // 
-            this.textBox1.Location = new System.Drawing.Point(81, 89);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(769, 20);
-            this.textBox1.TabIndex = 0;
+            this.txtNome.Location = new System.Drawing.Point(74, 150);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(769, 20);
+            this.txtNome.TabIndex = 0;
             // 
-            // textBox2
+            // txtCpf
             // 
-            this.textBox2.Location = new System.Drawing.Point(81, 165);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(769, 20);
-            this.textBox2.TabIndex = 1;
+            this.txtCpf.Location = new System.Drawing.Point(74, 226);
+            this.txtCpf.Name = "txtCpf";
+            this.txtCpf.Size = new System.Drawing.Size(769, 20);
+            this.txtCpf.TabIndex = 1;
             // 
-            // button1
+            // btnRegistrar
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Lime;
-            this.button1.Location = new System.Drawing.Point(81, 414);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(769, 64);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "REGISTRAR";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnRegistrar.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrar.ForeColor = System.Drawing.Color.Lime;
+            this.btnRegistrar.Location = new System.Drawing.Point(74, 616);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(769, 64);
+            this.btnRegistrar.TabIndex = 2;
+            this.btnRegistrar.Text = "REGISTRAR";
+            this.btnRegistrar.UseVisualStyleBackColor = false;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
-            // button2
+            // btnEntrar
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Chartreuse;
-            this.button2.Location = new System.Drawing.Point(81, 344);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(769, 64);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "ENTRAR";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnEntrar.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnEntrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEntrar.ForeColor = System.Drawing.Color.Chartreuse;
+            this.btnEntrar.Location = new System.Drawing.Point(74, 546);
+            this.btnEntrar.Name = "btnEntrar";
+            this.btnEntrar.Size = new System.Drawing.Size(769, 64);
+            this.btnEntrar.TabIndex = 2;
+            this.btnEntrar.Text = "ENTRAR";
+            this.btnEntrar.UseVisualStyleBackColor = false;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(381, 49);
+            this.label1.Location = new System.Drawing.Point(374, 110);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(174, 25);
             this.label1.TabIndex = 3;
@@ -93,7 +95,7 @@
             this.label2.AutoSize = true;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(430, 126);
+            this.label2.Location = new System.Drawing.Point(423, 187);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 25);
             this.label2.TabIndex = 3;
@@ -104,37 +106,37 @@
             this.label3.AutoSize = true;
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(415, 206);
+            this.label3.Location = new System.Drawing.Point(408, 267);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(90, 25);
             this.label3.TabIndex = 3;
             this.label3.Text = "Função";
             // 
-            // comboBox1
+            // cbxFuncao
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbxFuncao.FormattingEnabled = true;
+            this.cbxFuncao.Items.AddRange(new object[] {
             "ADMINISTRADOR",
             "CLIENTE"});
-            this.comboBox1.Location = new System.Drawing.Point(81, 250);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(769, 21);
-            this.comboBox1.TabIndex = 4;
+            this.cbxFuncao.Location = new System.Drawing.Point(74, 311);
+            this.cbxFuncao.Name = "cbxFuncao";
+            this.cbxFuncao.Size = new System.Drawing.Size(769, 21);
+            this.cbxFuncao.TabIndex = 4;
             // 
             // frmPerfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.ClientSize = new System.Drawing.Size(963, 586);
-            this.Controls.Add(this.comboBox1);
+            this.ClientSize = new System.Drawing.Size(963, 730);
+            this.Controls.Add(this.cbxFuncao);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnEntrar);
+            this.Controls.Add(this.btnRegistrar);
+            this.Controls.Add(this.txtCpf);
+            this.Controls.Add(this.txtNome);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmPerfil";
             this.Text = "frmPerfil";
@@ -145,13 +147,13 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.TextBox txtCpf;
+        private System.Windows.Forms.Button btnRegistrar;
+        private System.Windows.Forms.Button btnEntrar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbxFuncao;
     }
 }

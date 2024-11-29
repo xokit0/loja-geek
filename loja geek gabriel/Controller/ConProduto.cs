@@ -20,7 +20,7 @@ namespace loja_geek_gabriel.Controller
 
 
         //conectando com a base
-        SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Aluno\\Desktop\\tome\\loja geek gabriel\\DbGabriel.mdf\";Integrated Security=True");
+        SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Aluno\\Downloads\\tome\\loja geek gabriel\\DbGabriel.mdf\";Integrated Security=True");
         //instanciando o model produto
         Produto produto = new Produto();
 
@@ -89,6 +89,7 @@ namespace loja_geek_gabriel.Controller
             catch (Exception er)
             {
                 MessageBox.Show(er.Message);
+                //mudanca
             }
         }
 

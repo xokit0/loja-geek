@@ -35,7 +35,7 @@
             this.btnComprar = new System.Windows.Forms.Button();
             this.btnPerfil = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblNome = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlNav = new System.Windows.Forms.Panel();
             this.pnlBoard = new System.Windows.Forms.Panel();
@@ -158,7 +158,7 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.lblNome);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -167,15 +167,15 @@
             this.panel2.Size = new System.Drawing.Size(200, 220);
             this.panel2.TabIndex = 1;
             // 
-            // label1
+            // lblNome
             // 
-            this.label1.AutoSize = true;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Location = new System.Drawing.Point(43, 158);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 24);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Username";
+            this.lblNome.AutoSize = true;
+            this.lblNome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblNome.Location = new System.Drawing.Point(43, 158);
+            this.lblNome.Name = "lblNome";
+            this.lblNome.Size = new System.Drawing.Size(105, 24);
+            this.lblNome.TabIndex = 1;
+            this.lblNome.Text = "Username";
             // 
             // pictureBox1
             // 
@@ -198,9 +198,9 @@
             // 
             this.pnlBoard.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.pnlBoard.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlBoard.Location = new System.Drawing.Point(200, 144);
+            this.pnlBoard.Location = new System.Drawing.Point(200, 0);
             this.pnlBoard.Name = "pnlBoard";
-            this.pnlBoard.Size = new System.Drawing.Size(963, 586);
+            this.pnlBoard.Size = new System.Drawing.Size(963, 730);
             this.pnlBoard.TabIndex = 2;
             // 
             // frmMenu
@@ -230,7 +230,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnPerfil;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Button btnGrafico;
         private System.Windows.Forms.Button btnProduto;

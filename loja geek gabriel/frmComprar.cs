@@ -17,5 +17,11 @@ namespace loja_geek_gabriel
             InitializeComponent();
         }
 
+        private void frmComprar_Load(object sender, EventArgs e)
+        {
+            // TODO: esta linha de código carrega dados na tabela 'dbGabrielDataSet.produto'. Você pode movê-la ou removê-la conforme necessário.
+            this.produtoTableAdapter.Fill(this.dbGabrielDataSet.produto);
+
+        }
     }
 }

@@ -21,8 +21,8 @@ namespace loja_geek_gabriel
             ConProduto conProduto = new ConProduto();
             List<Produto> produtos = conProduto.listaproduto();
             dgvProduto.DataSource = produtos;
-            btnAtualizar.Enabled = false;
-            btnExcluir.Enabled = false;
+            btnAtualizar.Enabled = true;
+            btnExcluir.Enabled = true;
             this.ActiveControl = txtNome;
         }
 
@@ -101,9 +101,17 @@ namespace loja_geek_gabriel
             string valor = txtValor.Text;
             string imagem = txtNome.Text.Replace(" ", "");
             int id = Convert.ToInt32(txtId.Text);
-            pbxFoto.Image.Save(@"C:\Users\Aluno\Desktop\tome\loja geek gabriel\fotos" + imagem + ".jpg");
+            pbxFoto.Image.Save(@"C:\Users\Aluno\Downloads\tome\loja geek gabriel\fotos" + imagem + ".jpg");
             
             produto.Atualizar(id,nome, quantidade, valor, imagem);
+            MessageBox.Show("Produto atualizado com sucesso!", "Atualização", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            List<Produto> produtos = produto.listaproduto();
+            dgvProduto.DataSource = produtos;
+            txtId.Text = string.Empty;
+            txtNome.Text = string.Empty;
+            txtValor.Text = string.Empty;
+            txtQuantidade.Text = string.Empty;
+            this.ActiveControl = txtNome;
         }
 
         private void dgvProduto_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -121,5 +129,19 @@ namespace loja_geek_gabriel
             btnExcluir.Enabled = true;
         }
 
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+            ConProduto produto = new ConProduto();
+            var id = Convert.ToInt32(txtId.Text);
+            produto.Excluir(id);
+            MessageBox.Show("Produto excluido!", "Exclusão", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            List<Produto> produtos = produto.listaproduto();
+            dgvProduto.DataSource = produtos;
+        }
+
+        private void frmProduto_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
